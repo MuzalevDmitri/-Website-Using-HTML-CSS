@@ -12,3 +12,4 @@ menuBtn.onclick = function() {
     }
 }
 
+let menuLeft = document.getElementById('menu-left')

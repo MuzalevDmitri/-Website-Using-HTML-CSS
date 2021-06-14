@@ -135,3 +135,87 @@ nav ul li a {
 
 }
 
+
+.container {
+    display: flex;
+    height: 100vh;
+
+}
+
+.container h1 {
+padding: 0 30px;
+font-size: 50px;
+
+
+}
+
+.container p {
+
+}
+
+
+
+#block-left{ 
+    background:linear-gradient(rgba(0,0,0,0.1), #584c4c),  url('images/one.jpg');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    flex-direction: column;
+    transition: .5s;
+    min-width: 33.3%;
+    background-size: cover;
+    background-position: center;
+  
+
+}
+#block-left:hover{
+    min-width: 40%;
+} 
+  
+  
+
+#block-right{ 
+    background:linear-gradient(rgba(0,0,0,0.1), #584c4c), url('images/two.jpg');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    flex-direction: column;
+    min-width: 33.3%;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    transition: .5s;
+
+}
+
+#block-right:hover{
+    min-width: 40%;
+} 
+  
+
+#block-top{
+    background:linear-gradient(rgba(0,0,0,0.1), #584c4c), url('images/two.jpg');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    flex-direction: column;
+    min-width: 33.3%;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    transition: .4s;
+    transition: .5s;
+
+}
+
+
+
+#block-top:hover{
+    min-width: 40%;
+} 
+
+
+
